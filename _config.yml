@@ -1,0 +1,20 @@
+full_rebuild: true
+name: back to the board
+author: Slashtype SAS
+url: http://backtotheboard.xyz
+version: 0.1
+repository: https://github.com/cedricss/backtotheboard.xyz.git
+branch: gh-pages
+encoding: utf-8
+sass:
+  sass_dir: _scss_partials
+defaults:
+  -
+    values:
+      layout: "index"
+exclude: [
+.git,
+.gitignore,
+README.md,
+LICENSE
+]
